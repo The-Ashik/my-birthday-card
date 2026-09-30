@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(0, 101, 252);
+    display: flex;
+    justify-content: center;
+    animation: load 2s linear 1;
+}
+@keyframes load {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.main{
+    margin-top: 20vh;
+    height: 400px;
+    width: 330px;
+    background-color: rgb(160, 155, 228);
+    border-radius: 20px;
+    border: 1px solid rgb(202, 202, 235);
+    box-shadow: 5px 5px 5px 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logintextbox{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logintextbox label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.logintextbox input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    width: 80%;
+    border-radius:5px;
+    border: 1px solid  rgb(160, 155, 228);
+}
+button{
+    height: 28px;
+    width: 50px;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 2px 2px 2px;
+    transform: scale(1.1);
+}
+.checkbox{
+    height: 20px;
+    width: 16px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{
+    list-style-type:circle;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+ul li{
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+
+}
+ul li a:hover{
+  color: rgb(57, 2, 255);
+}
